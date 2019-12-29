@@ -5,7 +5,7 @@ print('第一题')
 a = 5
 def add():
     global a
-    a = 3
+    a +=1
     print(a)
 add()
 print(a)
@@ -78,4 +78,5 @@ python2 返回列表， python3返回迭代器节约内存
 6,Tuples［元组］ 是有序而不可变的值序列。
 7,Sets［集合］ 是装满无序值的包裹。
 8,Dictionaries［字典］ 是键值对的无序包裹。
+9. Object
 '''
